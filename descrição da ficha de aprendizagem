@@ -1,0 +1,31 @@
+📌 Nome do Projeto:
+Sistema de Cadastro de Alunos com Validação
+
+💻 Linguagem Usada:
+Portugol (Portugol Studio)
+
+🧠 Descrição do Funcionamento:
+Este projeto é um sistema de cadastro de alunos que coleta, valida e exibe informações sobre estudantes. Ele funciona da seguinte forma:
+
+Coleta de Dados: Para cada aluno, o programa solicita nome, idade, e-mail, número de matrícula, curso, telefone e turno.
+
+Validação de Matrícula: A matrícula é verificada para garantir que não seja repetida entre os alunos cadastrados.
+
+Validação de E-mail: O e-mail inserido é verificado para conter os caracteres obrigatórios @ e .. Caso contrário, o usuário é solicitado a digitar novamente.
+
+Verificação de Menor de Idade: Se o aluno for menor de idade, o programa pede os dados do responsável (nome, telefone e e-mail, também com validação).
+
+Exibição dos Dados: Após o cadastro, o sistema exibe a ficha completa de cada aluno, com todas as informações inseridas e validadas.
+
+▶️ Como Executar:
+Abra o Portugol Studio em seu computador.
+
+Crie um novo projeto ou cole o código fornecido em um arquivo novo.
+
+Clique em "Executar" (ícone ▶️) ou pressione F9 para iniciar o programa.
+
+O sistema irá solicitar os dados de 10 alunos (quantidade definida na variável a = 10).
+
+Siga as instruções exibidas no console, preenchendo corretamente os dados solicitados.
+
+Após o preenchimento de todos os cadastros, o sistema exibirá a ficha completa de cada aluno.
