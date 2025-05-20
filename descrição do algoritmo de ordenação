@@ -1,0 +1,76 @@
+📌 Nome do Projeto:
+Organizador de Senhas com Ordenação Bubble Sort e Merge Sort
+
+💻 Linguagem Usada:
+Portugol (desenvolvido no Portugol Studio)
+
+🧠 Descrição do Funcionamento:
+Este projeto é um sistema de geração e ordenação de senhas numéricas, criado para simular diferentes algoritmos de ordenação e permitir a comparação entre eles. Ele é útil para fins educacionais ou de demonstração de algoritmos.
+
+Funcionalidades:
+Geração de Senhas:
+
+Cria um vetor de senhas (números inteiros) entre 1 e 999.
+
+Usa uma fórmula matemática para simular aleatoriedade sem utilizar a função aleatorio().
+
+Exibição das Senhas:
+
+Mostra o vetor de senhas na ordem em que foram geradas.
+
+Ordenação com Bubble Sort:
+
+Algoritmo de ordenação simples e didático.
+
+Compara e troca os elementos adjacentes repetidamente até o vetor estar ordenado.
+
+Ordenação com Merge Sort:
+
+Algoritmo de ordenação mais eficiente.
+
+Utiliza o método "dividir para conquistar" com chamadas recursivas.
+
+Cópia de Vetores:
+
+Antes de ordenar, o vetor original é copiado para preservar os dados originais.
+
+Menu Interativo:
+
+O usuário pode escolher qual operação deseja executar:
+
+Ver senhas originais
+
+Ordenar com Bubble Sort
+
+Ordenar com Merge Sort
+
+Sair do sistema
+
+▶️ Como Executar:
+Abra o Portugol Studio no seu computador.
+
+Crie um novo projeto ou arquivo.
+
+Cole o código completo fornecido.
+
+Pressione F9 ou clique no botão de Executar (▶️).
+
+O menu interativo será exibido com as seguintes opções:
+
+mathematica
+Copiar
+Editar
+1 - Exibir senhas na ordem original
+2 - Ordenar senhas com Bubble Sort
+3 - Ordenar senhas com Merge Sort
+4 - Sair
+Escolha uma opção digitando o número correspondente.
+
+O programa continuará exibindo o menu até que a opção 4 (Sair) seja selecionada.
+
+🔧 Observações Técnicas:
+O vetor de senhas possui tamanho fixo: 10 elementos.
+
+A função gerar_senhas() usa uma base constante para simular variações e garantir que as senhas mudem com a posição.
+
+O projeto demonstra na prática dois algoritmos de ordenação clássicos, tornando-o ideal para fins educacionais.
