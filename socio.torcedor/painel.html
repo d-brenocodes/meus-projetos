@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Sócio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body onload="verificarLogin()">
+  <header>
+    <img src="assets/logo.png" alt="Logo do Clube" class="logo">
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="planos.html">Planos</a>
+      <a href="cadastro.html">Seja Sócio</a>
+      <a href="#" onclick="logout()">Sair</a>
+    </nav>
+  </header>
+
+  <main class="center">
+    <h2>Bem-vindo, Sócio!</h2>
+    <p>Você está logado com o e-mail: <strong id="userEmailDisplay"></strong></p>
+    <p>Seu plano: <strong id="userPlanoDisplay"></strong></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Clube Sócio Torcedor. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
